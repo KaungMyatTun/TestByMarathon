@@ -49,17 +49,6 @@ class MainActivity : AppCompatActivity() {
                 toShowExample + "\n\n\n\n\n" + toShowExample2 + "\n\n\n\n\n" + toShowExample3
         })
 
-
-//        var list = ArrayList<String>()
-//        list.add("1")
-//        list.add("five")
-//        list.add("2wenty")
-//        list.add("thr33")
-//
-//        val list2 = ArrayList<String>()
-//        list2.add("fkdf")
-//        list2.add("fkdfdfkerekr")
-
         val list3 = ArrayList<String>()
 
         var arbitray1 = ArrayList<ArrayList<ArrayList<String>>>()
@@ -172,32 +161,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-//        Log.e("size", arr[0]?.get(0).toString())
-//        for (i: Int in 0 until arr.size) {
-//            Log.e("number ", i.toString())
-//            for (j: Int in 0 until arr[i].size) {
-//                Log.e("n", arr[i][j])
-//                Log.e("result", find(arr[i][j]).toString())
-//                if (find(arr[i][j])?.size != 0) {
-////                    resultArr?.add(find(arr[i][j]))
-//                    for (value in find(arr[i][j])!!) {
-//                        if (value.contains("-")) {
-//                            var spl = value.split("-")
-//                            Log.e("- value", spl.size.toString())
-//                            for (index: Int in spl.indices) {
-//                                if (index == 0 && spl[index] != "") {
-//                                    resultArr?.add(spl[index])
-//                                } else if (index != 0 && spl[index] != "") {
-//                                    resultArr?.add("-" + spl[index])
-//                                }
-//                                Log.e("spl value", spl[index])
-//                            }
-//                        } else
-//                            resultArr?.add(value)
-//                    }
-//                }
-//            }
-//        }
         var sumResult: Int = 0
         for (value in resultArr!!) {
             sumResult += value.toInt()
